@@ -40,8 +40,13 @@ GitHub is where you **push** your Git repository.
 ### Step 1 - Create folders 
 If you don’t have folders already, create them using the command:
 
-`mkdir Day0` if you are already in RHCSA Folder <br>
-`mkdir -p RHCSA/Day{0..5}` <br>
+- To create single directory<br>
+`mkdir Day0` if you are already in RHCSA Folder 
+
+- To create multiple directories in sequence<br>
+`mkdir -p RHCSA/Day{0..5}` 
+
+- To creat multiple directories <br>
 `mkdir -p RHCSA/Day0 RHCSA/Day1` <br>
 
 ### What this does:
